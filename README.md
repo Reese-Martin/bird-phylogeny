@@ -2,6 +2,8 @@
 
 A local React/TypeScript explorer of the real **11,167-tip Aves 1.7 / Clements 2025** tree, with browser-only eBird CSV import, country-specific personal trees, an official eBird/Clements 2026 crosswalk covering **all 11,201 current species**, and local bird illustrations. Public hosting is deferred until local review, as specified in [plan.md](<plan.md>).
 
+Track the remaining GitHub Pages setup and personal-site integration in the [deployment checklist](DEPLOYMENT-PLAN.md).
+
 ## Start on this computer
 
 Double-click **`Start-Everybird.cmd`**, keep its console window open, and visit **http://127.0.0.1:5173/**. Press **Ctrl+C in that console** to stop the server.
