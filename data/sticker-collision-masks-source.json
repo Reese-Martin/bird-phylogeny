@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "purpose": "Conservative packing occupancy only; original Everybird sizing and hit masks remain unchanged.",
+  "inputCatalog": {
+    "path": "data/sources.lock.json",
+    "sha256": "76662a7bd8185cc0cae87e1d9b386e1c7329922d69a70a4c9463fcfbfece3a5a",
+    "artworkRevision": "b7749a623585b18320cb0e0271da63ee20c701c0"
+  },
+  "overviewInputs": {
+    "path": "data/sticker-overviews-source.json",
+    "sha256": "0ae1f0a4d42484c6c6e9c4324a4f3e95c8ee2f117f9cba56589cff4dae592db7",
+    "outputCatalogSha256": {
+      "32": "bfee69544b5c5a04de785f1335d12ca0bcb754251f4f39f62aaa44a3f2a0bd90",
+      "64": "30dec74ba7c707a021576103bcd01f3faa2c9fabfb6e0d99aa24b219e07c23e9"
+    }
+  },
+  "sizingGrid": {
+    "path": "public/data/sticker-geometry.json",
+    "sha256": "128ffc863aca92ffd6f663d47df421b552da3752a643c7c8f5306a455217a0b4",
+    "source": "Everybird rounded-aspect 24-cell tiles"
+  },
+  "inputImages": 44108,
+  "species": 11027,
+  "inputImageCatalogSha256": "3d3bbfd6e00eb0975fd95625e5a1e51684b3e87578dec9285eb2b40141c585c5",
+  "method": {
+    "longSide": 24,
+    "alphaThresholdExclusive": 0,
+    "sourcePixelGuard": 1,
+    "projection": "Max-pool union of all intersected target cells for each guarded native pixel rectangle",
+    "artworkLongSides": [
+      32,
+      64,
+      128,
+      384
+    ],
+    "bitOrder": "row-major MSB first",
+    "guardClippedToTile": true
+  },
+  "validation": {
+    "tierMasksCovered": 44108,
+    "allNativeTierMasksContained": true,
+    "comparisonAgainst128And384": {
+      "expandedSpecies": 11027,
+      "addedCells": 376601,
+      "maxAddedCells": 62
+    }
+  },
+  "script": {
+    "path": "scripts/sticker-collision-masks.ts",
+    "sha256": "3374a4a7038e1c083992ef8d9dac4bf411fa9528ffc45cd261f00934f6be769f"
+  },
+  "output": {
+    "path": "public/data/sticker-collision-masks.json",
+    "sha256": "0f59a91f507854b726244ab9822ae9a7750659949e97a87d88cf55bf6d59ad11",
+    "bytes": 1073914,
+    "species": 11027
+  },
+  "sharpVersion": "0.35.5"
+}

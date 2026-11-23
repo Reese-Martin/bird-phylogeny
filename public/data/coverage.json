@@ -1,0 +1,1064 @@
+{
+  "treeVersion": "Aves 1.7 · Clements 2025",
+  "taxonomyVersion": "2026",
+  "sourceTips": 11167,
+  "reportableTaxa": 18631,
+  "currentSpecies": 11201,
+  "mappingStatuses": {
+    "exact": 10928,
+    "renamed": 193,
+    "broader": 70,
+    "narrower": 4,
+    "unresolved": 6
+  },
+  "mappedCurrentSpecies": 11195,
+  "officialConceptAudit": {
+    "status": "official-full-species",
+    "speciesAudited": 11201,
+    "directConceptMatches": 11121,
+    "reviewedAnnualChanges": 74,
+    "unresolvedSourceConcepts": 6,
+    "previousSortAnchorMatches": 11121,
+    "workbookPath": "data/raw/clements2026-integrated.xlsx",
+    "workbookSha256": "69c5e6dc79989a604930d314e51fb13d777369511c265347b067807c780714af",
+    "sheet": "eBird-Clements v2026",
+    "normalizedPath": "data/raw/clements2026-integrated.json",
+    "normalizedSha256": "320612bb4a42d4346faf962be51754640a0a855e7cc4880a7b2a2f252593f358",
+    "provenancePath": "data/clements2026-source.json",
+    "crosswalkPath": "/data/crosswalk.json",
+    "scope": "Every current species has an official concept ID and worksheet-row evidence. Exact identity is joined by persistent concept ID; reviewed source containment is distinct from identity. All source-tree branch lengths remain 2025 values."
+  },
+  "representedSourceTips": 11164,
+  "verifiedSourceClades": 295,
+  "sourceTopologyGaps": [
+    {
+      "name": "Laniidae",
+      "rank": "family",
+      "memberCount": 34,
+      "mrcaTipCount": 35
+    }
+  ],
+  "sourceSpeciesGaps": [
+    {
+      "name": "Edolisoma incertum",
+      "code": "papcus1",
+      "conceptId": "avibase-00DF0484"
+    },
+    {
+      "name": "Corypha kabalii",
+      "code": "plalar1",
+      "conceptId": "avibase-9B904B9B"
+    },
+    {
+      "name": "Basileuterus melanogenys",
+      "code": "blcwar1",
+      "conceptId": "avibase-D2459CC0"
+    }
+  ],
+  "currentSpeciesGaps": [
+    {
+      "code": "sddtin1",
+      "scientificName": "Crypturellus resonans",
+      "commonName": "Slaty-masked Tinamou",
+      "conceptId": "avibase-23D44844",
+      "reason": "A complete source-tree placement is not established. Official 2026 workbook row 191 ratifies a new species without identifying a corresponding 2025 species concept; an old sort position alone does not prove biological containment.",
+      "officialSourceRow": 191,
+      "officialEvidenceRows": [
+        191
+      ],
+      "candidateSources": [
+        {
+          "conceptId": "avibase-FE2B5A6B",
+          "scientificName": "Crypturellus strigulosus"
+        }
+      ]
+    },
+    {
+      "code": "hoojeb1",
+      "scientificName": "Ptilorrhoa urrissia",
+      "commonName": "Hooded Jewel-babbler",
+      "conceptId": "avibase-028B045E",
+      "reason": "A complete source-tree placement is not established. Official 2026 workbook row 18669 ratifies a new species without a prior source concept or old sort position.",
+      "officialSourceRow": 18669,
+      "officialEvidenceRows": [
+        18669
+      ],
+      "candidateSources": []
+    },
+    {
+      "code": "papcus1",
+      "scientificName": "Edolisoma incertum",
+      "commonName": "Papuan Cicadabird",
+      "conceptId": "avibase-835FDB70",
+      "reason": "A complete source-tree placement is not established. Official 2026 workbook row 19032 expands incertum by only part of the old tenuirostre concept; the two old tips cannot be an exact or containment aggregate.",
+      "officialSourceRow": 19032,
+      "officialEvidenceRows": [
+        19032,
+        19040
+      ],
+      "candidateSources": [
+        {
+          "conceptId": "avibase-00DF0484",
+          "scientificName": "Edolisoma incertum"
+        },
+        {
+          "conceptId": "avibase-8EC4024D",
+          "scientificName": "Edolisoma tenuirostre"
+        }
+      ]
+    },
+    {
+      "code": "plalar1",
+      "scientificName": "Corypha kabalii",
+      "commonName": "Plains Lark",
+      "conceptId": "avibase-E944B680",
+      "reason": "A complete source-tree placement is not established. Official 2026 workbook rows 22655 and 22667 add irwini from part of the old africana concept; the old tips cannot be a full containment aggregate.",
+      "officialSourceRow": 22655,
+      "officialEvidenceRows": [
+        22655,
+        22658,
+        22664,
+        22667
+      ],
+      "candidateSources": [
+        {
+          "conceptId": "avibase-9B904B9B",
+          "scientificName": "Corypha kabalii"
+        },
+        {
+          "conceptId": "avibase-4E923B31",
+          "scientificName": "Corypha africana"
+        }
+      ]
+    },
+    {
+      "code": "sttbab1",
+      "scientificName": "Mixornis gularis",
+      "commonName": "Pin-striped Tit-Babbler",
+      "conceptId": "avibase-A63BA7A3",
+      "reason": "A complete source-tree placement is not established. Official 2026 workbook row 26024 splits woodi and transfers zophera zaperissa and everetti from bornensis; both old tips overlap current concepts rather than forming a containment aggregate.",
+      "officialSourceRow": 26024,
+      "officialEvidenceRows": [
+        26024,
+        26038,
+        26039,
+        26040,
+        26042,
+        26043
+      ],
+      "candidateSources": [
+        {
+          "conceptId": "avibase-4E2700ED",
+          "scientificName": "Mixornis gularis"
+        },
+        {
+          "conceptId": "avibase-A9C71560",
+          "scientificName": "Mixornis bornensis"
+        }
+      ]
+    },
+    {
+      "code": "blcwar1",
+      "scientificName": "Basileuterus melanogenys",
+      "commonName": "Black-cheeked Warbler",
+      "conceptId": "avibase-3120CFB4",
+      "reason": "A complete source-tree placement is not established. Official 2026 workbook row 34483 adds Azuero birds without documenting their prior species concept; the 2025 tree cannot establish their full ancestry.",
+      "officialSourceRow": 34483,
+      "officialEvidenceRows": [
+        34483
+      ],
+      "candidateSources": [
+        {
+          "conceptId": "avibase-D2459CC0",
+          "scientificName": "Basileuterus melanogenys"
+        }
+      ]
+    }
+  ],
+  "artwork": {
+    "locallyBundledSpecies": 11027,
+    "locallyBundledFiles": 22054,
+    "locallyBundledBytes": 235863538,
+    "scope": "all-available-current-species",
+    "availableAtPinnedEverybirdRevision": 11027,
+    "sourceMissingOrQuestionable": 174,
+    "gaps": [
+      {
+        "code": "maushe1",
+        "name": "Mauritius Shelduck",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "reushe1",
+        "name": "Reunion Shelduck",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "creshe1",
+        "name": "Crested Shelduck",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "finduc1",
+        "name": "Finsch's Duck",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "amsduc1",
+        "name": "Amsterdam Duck",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "mauduc1",
+        "name": "Mauritius Duck",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "pihduc1",
+        "name": "Pink-headed Duck",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "labduc",
+        "name": "Labrador Duck",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "auimer1",
+        "name": "Auckland Islands Merganser",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "nezqua1",
+        "name": "New Zealand Quail",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "himqua1",
+        "name": "Himalayan Quail",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "mauwop1",
+        "name": "Mauritius Wood-Pigeon",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "ryupig1",
+        "name": "Ryukyu Wood-Pigeon",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "bonpig1",
+        "name": "Bonin Wood-Pigeon",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "paspig",
+        "name": "Passenger Pigeon",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "mautud1",
+        "name": "Mauritius Turtle-Dove",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "rodtud1",
+        "name": "Rodrigues Turtle-Dove",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "tbgdov1",
+        "name": "Thick-billed Ground Dove",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "tangrd1",
+        "name": "Tanna Ground Dove",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "norgrd1",
+        "name": "Norfolk Ground Dove",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "spgpig1",
+        "name": "Spotted Green Pigeon",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "dodo1",
+        "name": "Dodo",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "rodsol2",
+        "name": "Rodrigues Solitaire",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "chopig1",
+        "name": "Choiseul Pigeon",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "rodblp1",
+        "name": "Rodrigues Blue-Pigeon",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "mabpig2",
+        "name": "Mauritius Blue-Pigeon",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "rmfdov1",
+        "name": "Red-moustached Fruit-Dove",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "snecou1",
+        "name": "Snail-eating Coua",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "sthcuc1",
+        "name": "St. Helena Cuckoo",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "jampau",
+        "name": "Jamaican Pauraque",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "saaswi1",
+        "name": "Salim Ali's Swift",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "braeme2",
+        "name": "Brace's Emerald",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "reurai1",
+        "name": "Reunion Rail",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "redrai1",
+        "name": "Red Rail",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "rodrai1",
+        "name": "Rodrigues Rail",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "sthcra1",
+        "name": "St. Helena Rail",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "asccra1",
+        "name": "Ascension Crake",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "hawrai1",
+        "name": "Hawkins's Rail",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "tahrai1",
+        "name": "Tahiti Rail",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "chirai1",
+        "name": "Chatham Islands Rail",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "dierai1",
+        "name": "Dieffenbach's Rail",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "bawrai1",
+        "name": "Bar-winged Rail",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "wairai1",
+        "name": "Wake Island Rail",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "hodwat1",
+        "name": "Hodgen's Waterhen",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "trimoo2",
+        "name": "Tristan Moorhen",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "sammoo1",
+        "name": "Samoan Moorhen",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "mascoo1",
+        "name": "Mascarene Coot",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "marswa1",
+        "name": "Marquesan Swamphen",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "necgal1",
+        "name": "New Caledonian Swamphen",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "reugal1",
+        "name": "Reunion Swamphen",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "takahe2",
+        "name": "North Island Takahe",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "lohswa1",
+        "name": "Lord Howe Swamphen",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "sthrai1",
+        "name": "St. Helena Crake",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "layrai",
+        "name": "Laysan Rail",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "hawrai",
+        "name": "Hawaiian Rail",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "milrai1",
+        "name": "Miller's Rail",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "koscra1",
+        "name": "Kosrae Crake",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "canoys1",
+        "name": "Canarian Oystercatcher",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "sunlap1",
+        "name": "Javan Lapwing",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "noisni1",
+        "name": "North Island Snipe",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "soisni1",
+        "name": "South Island Snipe",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "kirsan1",
+        "name": "Kiritimati Sandpiper",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "whwsan1",
+        "name": "Tahiti Sandpiper",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "moosan1",
+        "name": "Moorea Sandpiper",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "paibut1",
+        "name": "New Caledonian Buttonquail",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "greauk",
+        "name": "Great Auk",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "alagre1",
+        "name": "Alaotra Grebe",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "atigre1",
+        "name": "Atitlan Grebe",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "colgre1",
+        "name": "Colombian Grebe",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "guspet",
+        "name": "Guadalupe Storm-Petrel",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "lshpet1",
+        "name": "Large St. Helena Petrel",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "bkcpet2",
+        "name": "Jamaican Petrel",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "sshpet1",
+        "name": "Small St. Helena Petrel",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "palcor1",
+        "name": "Pallas's Cormorant",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "reusol1",
+        "name": "Reunion Ibis",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "nezbit1",
+        "name": "New Zealand Bittern",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "bernih1",
+        "name": "Bermuda Night Heron",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "reunih1",
+        "name": "Reunion Night Heron",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "maunih1",
+        "name": "Mauritius Night Heron",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "rodnih1",
+        "name": "Rodrigues Night Heron",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "asnher1",
+        "name": "Ascension Night Heron",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "berhaw1",
+        "name": "Bermuda Hawk",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "reusco1",
+        "name": "Reunion Scops-Owl",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "rodsco1",
+        "name": "Rodrigues Scops-Owl",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "mausco1",
+        "name": "Mauritius Scops-Owl",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "bswowl1",
+        "name": "Bermuda Saw-whet Owl",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "lauowl1",
+        "name": "Laughing Owl",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "sthhoo1",
+        "name": "St. Helena Hoopoe",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "berfli1",
+        "name": "Bermuda Flicker",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "guacar2",
+        "name": "Guadalupe Caracara",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "reukes1",
+        "name": "Reunion Kestrel",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "noikak1",
+        "name": "Norfolk Island Kaka",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "ocepar1",
+        "name": "Oceanic Eclectus",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "maspar1",
+        "name": "Mascarene Parrot",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "seypar2",
+        "name": "Seychelles Parakeet",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "newpar2",
+        "name": "Newton's Parakeet",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "magpar1",
+        "name": "Mauritius Gray Parrot",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "brbpar3",
+        "name": "Broad-billed Parrot",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "rodpar1",
+        "name": "Rodrigues Parrot",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "raipar1",
+        "name": "Raiatea Kakariki",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "blfpar2",
+        "name": "Black-fronted Kakariki",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "parpar2",
+        "name": "Paradise Parrot",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "neclor1",
+        "name": "New Caledonian Lorikeet",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "marpar1",
+        "name": "Martinique Amazon",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "guapar1",
+        "name": "Guadeloupe Amazon",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "glamac1",
+        "name": "Glaucous Macaw",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "carpar",
+        "name": "Carolina Parakeet",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "cubmac1",
+        "name": "Cuban Macaw",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "purpar2",
+        "name": "Puerto Rican Parakeet",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "guapar2",
+        "name": "Guadeloupe Parakeet",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "stiwre1",
+        "name": "Stephens Island Wren",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "buswre1",
+        "name": "Bush Wren",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "crytre1",
+        "name": "Cryptic Treehunter",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "alfgle1",
+        "name": "Alagoas Foliage-gleaner",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "chibel1",
+        "name": "Chatham Islands Bellbird",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "lohger1",
+        "name": "Lord Howe Gerygone",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "noipio1",
+        "name": "North Island Piopio",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "soipio1",
+        "name": "South Island Piopio",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "maumon1",
+        "name": "Maupiti Monarch",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "eiamon1",
+        "name": "Eiao Monarch",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "nuhmon1",
+        "name": "Nuku Hiva Monarch",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "guafly1",
+        "name": "Guam Flycatcher",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "kokako4",
+        "name": "South Island Kokako",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "huia1",
+        "name": "Huia",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "albwar1",
+        "name": "Aldabra Brush-Warbler",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "nigrew1",
+        "name": "Nightingale Reed Warbler",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "agurew1",
+        "name": "Aguiguan Reed Warbler",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "pagrew1",
+        "name": "Pagan Reed Warbler",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "soirew1",
+        "name": "Society Islands Reed Warbler",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "moorew1",
+        "name": "Moorea Reed Warbler",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "manrew2",
+        "name": "Mangareva Reed Warbler",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "chifer1",
+        "name": "Chatham Islands Fernbird",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "marwhe1",
+        "name": "Marianne White-eye",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "wcweye1",
+        "name": "White-chested White-eye",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "robwhe1",
+        "name": "Robust White-eye",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "kossta1",
+        "name": "Kosrae Starling",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "myssta1",
+        "name": "Mysterious Starling",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "norsta1",
+        "name": "Tasman Starling",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "raista2",
+        "name": "Raiatea Starling",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "rodsta2",
+        "name": "Rodrigues Starling",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "reusta1",
+        "name": "Reunion Starling",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "kamao",
+        "name": "Kamao",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "amaui",
+        "name": "Amaui",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "bonthr2",
+        "name": "Bonin Thrush",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "norist1",
+        "name": "Tasman Sea Island-Thrush",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "grcthr1",
+        "name": "Grand Cayman Thrush",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "kauoo",
+        "name": "Kauai Oo",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "oahoo",
+        "name": "Oahu Oo",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "bisoo",
+        "name": "Bishop's Oo",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "hawoo",
+        "name": "Hawaii Oo",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "kioea",
+        "name": "Kioea",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "reufod1",
+        "name": "Reunion Fody",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "poouli",
+        "name": "Poo-uli",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "kakawa",
+        "name": "Kakawahie",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "kongro",
+        "name": "Kona Grosbeak",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "lekfin",
+        "name": "Lesser Koa-Finch",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "grkfin",
+        "name": "Greater Koa-Finch",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "ulahaw",
+        "name": "Ula-ai-hawane",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "apapan2",
+        "name": "Laysan Honeycreeper",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "hawmam1",
+        "name": "Hawaii Mamo",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "blkmam",
+        "name": "Black Mamo",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "ou",
+        "name": "Ou",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "lanhoo",
+        "name": "Lanai Hookbill",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "nukupu3",
+        "name": "Oahu Nukupuu",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "lesaki",
+        "name": "Lesser Akialoa",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "greaki2",
+        "name": "Oahu Akialoa",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "greaki4",
+        "name": "Kauai Akialoa",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "greaki3",
+        "name": "Maui-nui Akialoa",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "greama",
+        "name": "Greater Amakihi",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "akepa2",
+        "name": "Oahu Akepa",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "bongro1",
+        "name": "Bonin Grosbeak",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "bertow1",
+        "name": "Bermuda Towhee",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "slbgra1",
+        "name": "Slender-billed Grackle",
+        "status": "quality-fallback"
+      },
+      {
+        "code": "purbul3",
+        "name": "St. Kitts Bullfinch",
+        "status": "quality-fallback"
+      }
+    ]
+  },
+  "limitations": [
+    "The official eBird v2026 reference taxonomy is complete for reportable categories; subspecies not reportable in eBird are not invented.",
+    "All 11,201 current species are audited against the user-supplied official 2026 Clements integrated workbook. Persistent concept IDs determine exact identities independently of artwork metadata; every crosswalk entry cites its official worksheet row.",
+    "The phylogeny remains the pinned Clements 2025 tree. Reviewed 2026 changes use honest source-tip containment or aggregates, without invented splits or dates. Newly ratified species and concepts that partly overlap older source species remain explicitly unresolved.",
+    "All appropriate images available for the current eBird taxonomy at the pinned sticker revision are bundled locally at 128 and 384 px. Species without a safely mapped source illustration retain a fallback independent of tree placement."
+  ]
+}

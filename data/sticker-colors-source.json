@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "algorithm": "opaque-family-oklab-kmeans-v1",
+  "settings": {
+    "inputLongSide": 384,
+    "alphaMinimumInclusive": 224,
+    "interiorErosionPixels": 3,
+    "interiorErosionMetric": "Manhattan distance to alpha<224 or outside image",
+    "interiorFallbackMinimumPixels": 16,
+    "interiorFallbackMinimumShare": 0.1,
+    "histogramBitsPerChannel": 4,
+    "weights": "alpha / 255",
+    "paletteClustersWithinDominantFamily": 3,
+    "kmeansIterations": 12,
+    "neutralChromaMaximum": 0.035,
+    "blackLightnessMaximumExclusive": 0.32,
+    "whiteLightnessMinimumInclusive": 0.82,
+    "brownHueMinimumInclusive": 30,
+    "brownHueMaximumExclusive": 105,
+    "brownConditions": [
+      {
+        "lightnessMaximumExclusive": 0.82,
+        "chromaMaximumExclusive": 0.1
+      },
+      {
+        "lightnessMaximumExclusive": 0.68,
+        "chromaMaximumExclusive": 0.16
+      }
+    ],
+    "pinkMinimumLightness": 0.62,
+    "hueBounds": {
+      "red": "h < 40 or h >= 350, unless pink",
+      "orange": "[40,80)",
+      "yellow": "[80,115)",
+      "green": "[115,180)",
+      "cyan": "[180,235)",
+      "blue": "[235,290)",
+      "purple": "[290,330)",
+      "pink": "[330,350) or light h < 25 / h >= 330"
+    },
+    "familyTieOrder": [
+      "black",
+      "gray",
+      "white",
+      "brown",
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "cyan",
+      "blue",
+      "purple",
+      "pink"
+    ],
+    "roundingDecimals": 6
+  },
+  "scope": "Predominant colors of the bundled illustrations, not definitive species/sex/season plumage metadata.",
+  "inputLock": {
+    "path": "data/sources.lock.json",
+    "sha256": "76662a7bd8185cc0cae87e1d9b386e1c7329922d69a70a4c9463fcfbfece3a5a"
+  },
+  "artworkRevision": "b7749a623585b18320cb0e0271da63ee20c701c0",
+  "originalArtworkRevision": "3b42ef839501b93166e578075c4ea97adb4c4fa5",
+  "everybirdRevision": "50510c2209280b9f259545d8ab08e13970d5f8e6",
+  "inputImageCount": 11027,
+  "inputImageCatalogSha256": "5563dbf4150aaa25a294c8b9e9eb61236d3d688dc5228943f726b26e040cb161",
+  "script": {
+    "path": "scripts/sticker-colors.ts",
+    "sha256": "764f2ba75389ed1896ae64504d78e828f546092fa5932b8c0025fee299741b6e"
+  },
+  "sources": [
+    "https://bottosson.github.io/posts/oklab/",
+    "https://github.com/alchaincyf/huashu-bird-sticker/tree/3b42ef839501b93166e578075c4ea97adb4c4fa5",
+    "https://github.com/yusuftaleb/everybird-stickers/tree/b7749a623585b18320cb0e0271da63ee20c701c0",
+    "https://github.com/yusuftaleb/everybird/tree/50510c2209280b9f259545d8ab08e13970d5f8e6"
+  ],
+  "colorMath": "sRGB transfer to linear RGB, Ottosson 2021 D65 OKLab matrices. Cluster centroid inverse-converted to sRGB and clipped to [0,1].",
+  "capture": {
+    "completed": 11027,
+    "measured": 11027,
+    "noOpaquePixels": [],
+    "interiorFallbackCodes": [],
+    "opaquePixels": 528707681,
+    "sampledPixels": 484000665,
+    "familyCounts": {
+      "black": 1128,
+      "gray": 4255,
+      "white": 180,
+      "brown": 4292,
+      "red": 135,
+      "orange": 15,
+      "yellow": 190,
+      "green": 578,
+      "cyan": 37,
+      "blue": 211,
+      "purple": 3,
+      "pink": 3
+    },
+    "elapsedMs": 34509
+  },
+  "output": {
+    "path": "public/data/sticker-colors.json",
+    "sha256": "62c80b80404e8a794528e24fc297a9dd3331d82b98eb0f5590755aa900892b44",
+    "bytes": 2273339,
+    "species": 11027
+  },
+  "sharpVersion": "0.35.5",
+  "license": "Numerical artwork measurements; source illustrations CC BY 4.0. OKLab conversion code public domain / MIT by Björn Ottosson."
+}

@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 2,
+  "datasetVersion": "aves-1.7-clements2025-ebird2026-v2",
+  "generatedAt": "2026-11-19T00:40:38.820Z",
+  "treeVersion": "Aves 1.7 · Clements 2025",
+  "treeTaxonomyVersion": "2025",
+  "taxonomyVersion": "2026",
+  "tree": {
+    "version": "1.7",
+    "taxonomy": "Clements 2025",
+    "commit": "4af84f14f8f3df26bd4480202689b08ea0fc2c48",
+    "tipCount": 11167,
+    "nodeCount": 22333,
+    "rootAgeMya": 98.99001200000001,
+    "units": "approximate million years before present",
+    "leafInterval": "[leafStart, leafEnd), exclusive end",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "citation": "McTavish et al. (2025). A complete and dynamic tree of birds. PNAS. doi:10.1073/pnas.2409658122",
+    "citationUrl": "https://www.pnas.org/doi/10.1073/pnas.2409658122",
+    "supportingCitationsPath": "/data/tree-citations.csv",
+    "supportingCitationsSource": "clootl 0.1.5 getCitations, Aves 1.7 packaged tree independently verified against the pinned NEXUS",
+    "url": "https://raw.githubusercontent.com/McTavishLab/AvesData/4af84f14f8f3df26bd4480202689b08ea0fc2c48/Tree_versions/Aves_1.7/Clements2025/summary_dated_clements.nex",
+    "calibrationNote": "The source README reports a calibration error in v1.6. This pinned v1.7 tree has a root around 98.99 Ma; source uncertainty interval is retained (72–133 Ma). Dates remain approximate. This app does not recalibrate the source.",
+    "supportNote": "Source posterior and age intervals are preserved verbatim on source nodes. Posterior values are summary-tree annotations and must not be interpreted as independent molecular support for every taxonomic placement. Study-level placement support is unknown here."
+  },
+  "taxonomy": {
+    "version": "2026",
+    "url": "https://api.ebird.org/v2/ref/taxonomy/ebird?fmt=json&version=2026",
+    "citation": "Clements et al. (2026). The eBird/Clements checklist of Birds of the World: v2026.",
+    "citationUrl": "https://www.birds.cornell.edu/clementschecklist/download/",
+    "changesUrl": "https://www.birds.cornell.edu/clementschecklist/updates-and-corrections-october-2026/",
+    "copyright": "Cornell Lab of Ornithology. No open-data license was declared by the downloaded reference response; retain attribution and review terms before public redistribution.",
+    "conceptAudit": "official-full-species",
+    "conceptAuditDetails": {
+      "status": "official-full-species",
+      "speciesAudited": 11201,
+      "directConceptMatches": 11121,
+      "reviewedAnnualChanges": 74,
+      "unresolvedSourceConcepts": 6,
+      "previousSortAnchorMatches": 11121,
+      "workbookPath": "data/raw/clements2026-integrated.xlsx",
+      "workbookSha256": "69c5e6dc79989a604930d314e51fb13d777369511c265347b067807c780714af",
+      "sheet": "eBird-Clements v2026",
+      "normalizedPath": "data/raw/clements2026-integrated.json",
+      "normalizedSha256": "320612bb4a42d4346faf962be51754640a0a855e7cc4880a7b2a2f252593f358",
+      "provenancePath": "data/clements2026-source.json",
+      "crosswalkPath": "/data/crosswalk.json",
+      "scope": "Every current species has an official concept ID and worksheet-row evidence. Exact identity is joined by persistent concept ID; reviewed source containment is distinct from identity. All source-tree branch lengths remain 2025 values."
+    },
+    "conceptSource": {
+      "url": "https://www.birds.cornell.edu/clementschecklist/wp-content/uploads/2026/11/eBird-Clements_v2026_integrated-checklist-October-2026.xlsx",
+      "originalFilename": "eBird-Clements_v2026_integrated-checklist-October-2026.xlsx",
+      "sha256": "69c5e6dc79989a604930d314e51fb13d777369511c265347b067807c780714af",
+      "sheet": "eBird-Clements v2026",
+      "provenancePath": "data/clements2026-source.json"
+    },
+    "conceptLimitation": "The phylogeny remains the pinned Clements 2025 tree. Reviewed 2026 changes use honest source-tip containment or aggregates, without invented splits or dates. Newly ratified species and concepts that partly overlap older source species remain explicitly unresolved."
+  },
+  "artwork": {
+    "revision": "b7749a623585b18320cb0e0271da63ee20c701c0",
+    "metadataRevision": "3b42ef839501b93166e578075c4ea97adb4c4fa5",
+    "originalV1Revision": "f9e63a0ffd780edeb463b36cf1858f2e593f6099",
+    "url": "https://github.com/yusuftaleb/everybird-stickers",
+    "originalUrl": "https://github.com/alchaincyf/huashu-bird-sticker",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "credit": "Stickers: huashu-bird-sticker, CC BY 4.0. Resized and trimmed by Everybird.",
+    "disclosure": "AI-generated bird illustrations; quality metadata is preserved where available. Illustrations are not identification photographs.",
+    "sizes": [
+      128,
+      384
+    ],
+    "bundledSpecies": 11027,
+    "scope": "all-available-current-species",
+    "bundledFiles": 22054,
+    "bundledBytes": 235863538
+  },
+  "validation": {
+    "tipCount": 11167,
+    "nodeCount": 22333,
+    "connected": true,
+    "acyclic": true,
+    "uniqueTipNames": true,
+    "maxBranchError": 7.105427357601002e-15,
+    "minRootTipDistance": 98.990001,
+    "maxRootTipDistance": 98.99001200000001,
+    "tipDistanceSpread": 0.00001100000000064938,
+    "branchToleranceMya": 1e-10,
+    "ultrametricToleranceMya": 0.001,
+    "annotatedNodes": 22333,
+    "posteriorNodes": 11166,
+    "ageIntervalNodes": 22333
+  },
+  "independentAudit": {
+    "checkedAt": "2026-11-19T00:28:18Z",
+    "R": "R version 4.5.0 (2025-04-11 ucrt)",
+    "ape": "5.8.1",
+    "clootl": "0.1.5",
+    "sourceSha256": "f973043745b1e56006136a5b4cabab1384f771a622c0282f68256ce02480bc42",
+    "preparedTreeSha256": "61dff5ed24be04b8aea0681c15af747f0d4cd536e9d8d952a1b238c16a51d2a8",
+    "tipCount": 11167,
+    "internalNodeCount": 11166,
+    "authorPackagedTreeAgrees": true,
+    "browserTopologyAgrees": true,
+    "browserLeafOrderAgrees": true,
+    "maxBrowserRootDistanceError": 0,
+    "maxBrowserBranchLengthError": 8.881784197001252e-16,
+    "toleranceMya": 1e-10,
+    "studyCitationEntries": 301,
+    "studyCitationsSha256": "3b57af547a35fe2647380c30fa7029ef5399c11b6f375221253f419cf8c5b645"
+  },
+  "coverageSummary": {
+    "currentSpecies": 11201,
+    "mappedCurrentSpecies": 11195,
+    "representedSourceTips": 11164,
+    "mappingStatuses": {
+      "exact": 10928,
+      "renamed": 193,
+      "broader": 70,
+      "narrower": 4,
+      "unresolved": 6
+    },
+    "localArtwork": 11027
+  },
+  "limitations": [
+    "The official eBird v2026 reference taxonomy is complete for reportable categories; subspecies not reportable in eBird are not invented.",
+    "All 11,201 current species are audited against the user-supplied official 2026 Clements integrated workbook. Persistent concept IDs determine exact identities independently of artwork metadata; every crosswalk entry cites its official worksheet row.",
+    "The phylogeny remains the pinned Clements 2025 tree. Reviewed 2026 changes use honest source-tip containment or aggregates, without invented splits or dates. Newly ratified species and concepts that partly overlap older source species remain explicitly unresolved.",
+    "All appropriate images available for the current eBird taxonomy at the pinned sticker revision are bundled locally at 128 and 384 px. Species without a safely mapped source illustration retain a fallback independent of tree placement."
+  ],
+  "sources": [
+    {
+      "id": "tree",
+      "path": "data/raw/tree.nex",
+      "url": "https://raw.githubusercontent.com/McTavishLab/AvesData/4af84f14f8f3df26bd4480202689b08ea0fc2c48/Tree_versions/Aves_1.7/Clements2025/summary_dated_clements.nex",
+      "revision": "4af84f14f8f3df26bd4480202689b08ea0fc2c48",
+      "sha256": "f973043745b1e56006136a5b4cabab1384f771a622c0282f68256ce02480bc42",
+      "bytes": 2077841,
+      "retrievedAt": "2026-11-18T04:02:43.177Z",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "tree-documentation",
+      "path": "data/raw/aves-readme.md",
+      "url": "https://raw.githubusercontent.com/McTavishLab/AvesData/4af84f14f8f3df26bd4480202689b08ea0fc2c48/README.md",
+      "revision": "4af84f14f8f3df26bd4480202689b08ea0fc2c48",
+      "sha256": "992745ec1adff375f75ec08f6d6e5f409054468ef4d0b7d964f202afe3e49694",
+      "bytes": 6654,
+      "retrievedAt": "2026-11-18T04:02:43.177Z",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "tree-history",
+      "path": "data/raw/aves-history.txt",
+      "url": "https://raw.githubusercontent.com/McTavishLab/AvesData/4af84f14f8f3df26bd4480202689b08ea0fc2c48/Tree_versions/Aves_1.7/Clements2025/history.txt",
+      "revision": "4af84f14f8f3df26bd4480202689b08ea0fc2c48",
+      "sha256": "80cad3b620308623c7e71f3a1b735664f9c44b80a0fa92c843334741f5474e5a",
+      "bytes": 581,
+      "retrievedAt": "2026-11-18T04:02:43.177Z",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "source-taxonomy",
+      "path": "data/raw/ott2025.csv",
+      "url": "https://raw.githubusercontent.com/McTavishLab/AvesData/4af84f14f8f3df26bd4480202689b08ea0fc2c48/Taxonomy_versions/Clements2025/OTT_crosswalk_2025.csv",
+      "revision": "4af84f14f8f3df26bd4480202689b08ea0fc2c48",
+      "sha256": "b9db44d58f24b059610109b132f652d97e1dfcb35866015bf501991445bf84b3",
+      "bytes": 3685459,
+      "retrievedAt": "2026-11-18T04:02:43.177Z",
+      "license": "CC BY 4.0 (AvesData); Clements attribution retained"
+    },
+    {
+      "id": "target-taxonomy",
+      "path": "data/raw/ebird2026.json",
+      "url": "https://api.ebird.org/v2/ref/taxonomy/ebird?fmt=json&version=2026",
+      "revision": "2026",
+      "sha256": "083d8d29881ea8ba679580873e08d41833c4a1d7fa95600521859f122baaac1b",
+      "bytes": 6123653,
+      "retrievedAt": "2026-11-18T04:02:43.177Z",
+      "license": "Cornell Lab reference taxonomy; no open license specified in response"
+    },
+    {
+      "id": "artwork-concepts-and-quality",
+      "path": "data/raw/huashu-species.json",
+      "url": "https://raw.githubusercontent.com/alchaincyf/huashu-bird-sticker/3b42ef839501b93166e578075c4ea97adb4c4fa5/data/species.json",
+      "revision": "3b42ef839501b93166e578075c4ea97adb4c4fa5",
+      "sha256": "5073c389680a91bf0bb0a763b67ebc265a891af7e281d34fbf77f620bbdaaee4",
+      "bytes": 41987231,
+      "retrievedAt": "2026-11-18T04:02:43.177Z",
+      "license": "CC BY 4.0 data/artwork"
+    },
+    {
+      "id": "artwork-mapping",
+      "path": "data/raw/everybird-species.json",
+      "url": "https://raw.githubusercontent.com/yusuftaleb/everybird/50510c2209280b9f259545d8ab08e13970d5f8e6/public/data/species.v1.json",
+      "revision": "50510c2209280b9f259545d8ab08e13970d5f8e6",
+      "sha256": "8ae50d623e67904c698cf88fa492442a8adf4f21d61d15adf5617d13467d35ae",
+      "bytes": 2617208,
+      "retrievedAt": "2026-11-18T04:02:43.177Z",
+      "license": "MIT metadata; artwork CC BY 4.0"
+    },
+    {
+      "id": "artwork-versions",
+      "path": "data/raw/sticker-versions.json",
+      "url": "https://raw.githubusercontent.com/yusuftaleb/everybird/50510c2209280b9f259545d8ab08e13970d5f8e6/data/sticker-versions.json",
+      "revision": "50510c2209280b9f259545d8ab08e13970d5f8e6",
+      "sha256": "e521182cb16dd7b55ff44db60bcb84aed85fcadd5088c20080413bf506984c5e",
+      "bytes": 189974,
+      "retrievedAt": "2026-11-18T04:02:43.177Z",
+      "license": "MIT metadata; artwork CC BY 4.0"
+    },
+    {
+      "id": "everybird-license",
+      "path": "data/raw/everybird-LICENSE",
+      "url": "https://raw.githubusercontent.com/yusuftaleb/everybird/50510c2209280b9f259545d8ab08e13970d5f8e6/LICENSE",
+      "revision": "50510c2209280b9f259545d8ab08e13970d5f8e6",
+      "sha256": "83ca4391a7ca7ac1b6a797a2954ca5d41de5b4fe9e107f92889a929592fd4772",
+      "bytes": 1068,
+      "retrievedAt": "2026-11-18T04:02:43.177Z",
+      "license": "MIT"
+    },
+    {
+      "id": "stickers-license",
+      "path": "data/raw/stickers-LICENSE",
+      "url": "https://raw.githubusercontent.com/yusuftaleb/everybird-stickers/b7749a623585b18320cb0e0271da63ee20c701c0/LICENSE",
+      "revision": "b7749a623585b18320cb0e0271da63ee20c701c0",
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "bytes": 18657,
+      "retrievedAt": "2026-11-18T04:02:43.177Z",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "stickers-documentation",
+      "path": "data/raw/stickers-README.md",
+      "url": "https://raw.githubusercontent.com/yusuftaleb/everybird-stickers/b7749a623585b18320cb0e0271da63ee20c701c0/README.md",
+      "revision": "b7749a623585b18320cb0e0271da63ee20c701c0",
+      "sha256": "305d64769611c18da9666ec3ed7422a92fb3028d0fd16f8cd2a4f2a0e99210af",
+      "bytes": 925,
+      "retrievedAt": "2026-11-18T04:02:43.177Z",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "sticker-file-index",
+      "path": "data/raw/everybird-stickers-index.json",
+      "url": "https://api.github.com/repos/yusuftaleb/everybird-stickers/git/trees/b7749a623585b18320cb0e0271da63ee20c701c0?recursive=1",
+      "revision": "b7749a623585b18320cb0e0271da63ee20c701c0",
+      "sha256": "586c0173c35f5056ff94975ab6a51939ccf9fd4ae79885cbbd7e83a8bf13ea76",
+      "bytes": 8830983,
+      "retrievedAt": "2026-11-18T06:01:34.894Z",
+      "license": "CC BY 4.0 artwork metadata"
+    },
+    {
+      "id": "clements2026-integrated-xlsx",
+      "path": "data/raw/clements2026-integrated.xlsx",
+      "url": "https://www.birds.cornell.edu/clementschecklist/wp-content/uploads/2026/11/eBird-Clements_v2026_integrated-checklist-October-2026.xlsx",
+      "revision": "Clements 2026 October integrated checklist",
+      "sha256": "69c5e6dc79989a604930d314e51fb13d777369511c265347b067807c780714af",
+      "bytes": 7171472,
+      "acquisition": "User-provided original official workbook",
+      "license": "Cornell Lab of Ornithology eBird/Clements taxonomy; attribution and redistribution terms retained",
+      "acquiredOn": "2026-11-18",
+      "providedByUser": true
+    }
+  ],
+  "assets": {
+    "manifestPath": "/data/artwork-manifest.json",
+    "sha256": "35eaaea576079a6fc27066c0fbd07b10e41fa7c147caa03787c782bdaea19ec2",
+    "bytes": 11649685,
+    "species": 11027,
+    "files": 22054
+  }
+}

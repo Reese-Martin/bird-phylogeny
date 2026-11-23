@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>Everybird local browser QA</title>
+    <style>
+      :root { font: 14px/1.5 system-ui,sans-serif; color: #21382b; background: #f6f4eb; }
+      * { box-sizing: border-box; } body { margin: 0; } main { padding: 18px; max-width: 1600px; margin: auto; }
+      h1 { margin: 0 0 5px; font-size: 23px; } p { margin: 6px 0 14px; }
+      .controls { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; }
+      button { padding: 8px 12px; border-radius: 5px; border: 1px solid #9eae91; color: #21382b; background: #fffefa; cursor: pointer; }
+      button:disabled { opacity: .5; cursor: default; } button:focus-visible { outline: 3px solid #be792f; }
+      .layout { display: grid; grid-template-columns: minmax(450px,1fr) minmax(350px,530px); gap: 16px; }
+      .tree { height: min(73vh,800px); min-height: 450px; border: 1px solid #bcc7b2; background: #f6f4eb; }
+      pre { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; font: 12px/1.45 ui-monospace,monospace; padding: 12px; border: 1px solid #bcc7b2; background: #fffefa; max-height: 78vh; overflow: auto; }
+      .status { font-weight: 600; min-height: 22px; } @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } .tree { height: 60vh; } }
+    </style>
+  </head>
+  <body><div id="root"></div><script type="module" src="/tests/browser-qa.tsx"></script></body>
+</html>

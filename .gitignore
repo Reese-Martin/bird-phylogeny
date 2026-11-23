@@ -1,0 +1,20 @@
+node_modules/
+dist/
+.tools/
+data/raw/
+personal/
+test-results/
+*.log
+.DS_Store
+*.tsbuildinfo
+
+# Local configuration and credentials; examples may be shared deliberately.
+.env
+.env.*
+!.env.example
+!.env.sample
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx

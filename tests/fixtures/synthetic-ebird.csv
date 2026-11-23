@@ -1,0 +1,16 @@
+Submission ID,Common Name,Scientific Name,Count,Date,Location,Latitude,Longitude,Observation Details
+S-SYNTHETIC-1,American Crow,Corvus brachyrhynchos,2,2024-01-02,"Invented place, not real",0,0,"Quoted details
+on a second line"
+S-SYNTHETIC-1,American Crow,Corvus brachyrhynchos,2,2024-01-02,Invented place,0,0,Duplicate species on checklist
+S-SYNTHETIC-2,American Crow,Corvus brachyrhynchos,X,1900-01-01,Invented place,0,0,Historical placeholder
+S-SYNTHETIC-3,Saltmarsh Willet,Tringa semipalmata,1,2026-11-01,Invented place,0,0,Current retained scientific name
+S-SYNTHETIC-4,Prairie Willet,Tringa inornata,1,2026-11-02,Invented place,0,0,Newly recognized species
+S-SYNTHETIC-5,Willet,Tringa semipalmata,1,2024-06-01,Invented place,0,0,Legacy ambiguous concept
+S-SYNTHETIC-6,Mallard x Northern Pintail (hybrid),Anas platyrhynchos x acuta,1,2024-05-01,Invented place,0,0,Hybrid exclusion
+S-SYNTHETIC-7,Invented Unmatched Bird,Testus unknown,1,2024-03-01,Invented place,0,0,Unmatched name
+S-SYNTHETIC-8,American Crow,Corvus brachyrhynchos,0,2024-04-01,Invented place,0,0,Zero exclusion
+S-SYNTHETIC-9,American Crow,Corvus brachyrhynchos,-1,2024-01-01,Invented place,0,0,Invalid count exclusion
+S-SYNTHETIC-10,American Crow,Corvus brachyrhynchos,1,2024-02-30,Invented place,0,0,Invalid date retained presence
+S-SYNTHETIC-11,American Crow,Corvus brachyrhynchos,1,,Invented place,0,0,Missing date
+,American Crow,Corvus brachyrhynchos,1,2023-01-01,Invented place,0,0,Missing checklist ID
+S-SYNTHETIC-12,Gray Jay,Perisoreus canadensis,X,2024-07-01,Invented place,0,0,Documented common name change

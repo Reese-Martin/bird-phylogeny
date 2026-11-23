@@ -1,0 +1,4 @@
+# Prepared datasets, artwork metadata, and their generator scripts are pinned by
+# SHA-256. Preserve their exact bytes on Windows, macOS, Linux, and CI rather than
+# applying core.autocrlf conversions when adding or checking out this repository.
+* -text

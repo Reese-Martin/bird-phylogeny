@@ -1,0 +1,113 @@
+{
+  "retrievedAt": "2026-11-18T06:02:05.643Z",
+  "license": "SIL Open Font License 1.1",
+  "googleFontsRevision": "7af0d90b4d532ffa4b041937b560c6df4e7b1e95",
+  "files": [
+    {
+      "file": "manrope-latin.woff2",
+      "url": "https://fonts.gstatic.com/s/manrope/v23/xn7gYHE41ni1AdIRggexSg.woff2",
+      "bytes": 24532,
+      "sha256": "8c2def024c1bf31aacf3624ae3c4d701269b4ec3dc765c04830839f0d36b2d9e"
+    },
+    {
+      "file": "manrope-latin-ext.woff2",
+      "url": "https://fonts.gstatic.com/s/manrope/v23/xn7gYHE41ni1AdIRggmxSuXd.woff2",
+      "bytes": 15160,
+      "sha256": "2f7335119075b2079f1d882530bbc18728461612bf90743203d73a74a48f4d9b"
+    },
+    {
+      "file": "geist-mono-latin.woff2",
+      "url": "https://fonts.gstatic.com/s/geistmono/v6/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeEPKK5U5Ck.woff2",
+      "bytes": 10116,
+      "sha256": "72971bd4908d3984fa1b1426bb363730e4957e16a0f58bfbca76993095715488"
+    },
+    {
+      "file": "geist-mono-latin-ext.woff2",
+      "url": "https://fonts.gstatic.com/s/geistmono/v6/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeEPKK5a5ClqOw.woff2",
+      "bytes": 7156,
+      "sha256": "84c2a01e0e35619e561d46285ccecec68aae76cb96c618b8e047806cb5530741"
+    },
+    {
+      "file": "OFL-Manrope.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/manrope/OFL.txt",
+      "bytes": 4387,
+      "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+    },
+    {
+      "file": "OFL-Geist-Mono.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/geistmono/OFL.txt",
+      "bytes": 4387,
+      "sha256": "1781d2806a07d91c4edf4740b88449fab7d0eadad53f7c351b94cd4d4eb8c00f"
+    },
+    {
+      "file": "source-sans-3-vietnamese-italic.woff2",
+      "url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpMtKy2OAdR1K-IwhWudF-R3woqaOLY1HY.woff2",
+      "retrievedAt": "2026-11-23T02:33:24.968Z",
+      "bytes": 10768,
+      "sha256": "aa44d57632499ea829dc6eeb512d6b84955328d436567448e905d279c3589b4c"
+    },
+    {
+      "file": "source-sans-3-latin-ext-italic.woff2",
+      "url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpMtKy2OAdR1K-IwhWudF-R3woqaeLY1HY.woff2",
+      "retrievedAt": "2026-11-23T02:33:24.980Z",
+      "bytes": 59496,
+      "sha256": "6fe10a66ec416f77a26309b645471d032ad8175063bb605b886e9b7e57efaaa8"
+    },
+    {
+      "file": "source-sans-3-latin-italic.woff2",
+      "url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpMtKy2OAdR1K-IwhWudF-R3woqZ-LY.woff2",
+      "retrievedAt": "2026-11-23T02:33:24.980Z",
+      "bytes": 28460,
+      "sha256": "5fbc14d56cea35e60596c72ca969b349443c6a536f74e11748eed8b3a396e61d"
+    },
+    {
+      "file": "source-sans-3-vietnamese.woff2",
+      "url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpStKy2OAdR1K-IwhWudF-R3wAaZfrc.woff2",
+      "retrievedAt": "2026-11-23T02:33:24.980Z",
+      "bytes": 10360,
+      "sha256": "a91edbcdcb4e0f97ca0558994918fd3e489356c0f63aa0bc54972b5e513b4a59"
+    },
+    {
+      "file": "source-sans-3-latin-ext.woff2",
+      "url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpStKy2OAdR1K-IwhWudF-R3wEaZfrc.woff2",
+      "retrievedAt": "2026-11-23T02:33:24.981Z",
+      "bytes": 60088,
+      "sha256": "a85a7459bdb3cdc1136751e151a506bae653fc29ada3ca86237477df6f1b59e6"
+    },
+    {
+      "file": "source-sans-3-latin.woff2",
+      "url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpStKy2OAdR1K-IwhWudF-R3w8aZQ.woff2",
+      "retrievedAt": "2026-11-23T02:33:24.981Z",
+      "bytes": 28872,
+      "sha256": "19143dca075972bc84e3fd9eab7416dd40cc565dccb2435a044bdfabe060c7d5"
+    },
+    {
+      "file": "OFL-Fraunces.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/fraunces/OFL.txt",
+      "retrievedAt": "2026-11-23T02:33:24.981Z",
+      "bytes": 4391,
+      "sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b"
+    },
+    {
+      "file": "OFL-Source-Sans-3.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourcesans3/OFL.txt",
+      "retrievedAt": "2026-11-23T02:33:24.982Z",
+      "bytes": 4579,
+      "sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392"
+    },
+    {
+      "file": "fraunces-latin-ext.woff2",
+      "url": "https://fonts.gstatic.com/s/fraunces/v38/6NUu8FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0K7iN7iQcIfJD58njt0oc1qv86Rg.woff2",
+      "retrievedAt": "2026-11-23T02:33:24.982Z",
+      "bytes": 32196,
+      "sha256": "fffaa1960497be87b9763e6431ca06cc98362b63deb59fe424f964b0fe560708"
+    },
+    {
+      "file": "fraunces-latin.woff2",
+      "url": "https://fonts.gstatic.com/s/fraunces/v38/6NUu8FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0K7iN7iQcIfJD58njt0oc7qv8.woff2",
+      "retrievedAt": "2026-11-23T02:33:24.983Z",
+      "bytes": 35120,
+      "sha256": "170a928c701ef00e4b91105f870dd2c764b9ddb0c725cda6e71de576a8e72a00"
+    }
+  ]
+}

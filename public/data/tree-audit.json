@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-11-19T00:28:18Z",
+  "R": "R version 4.5.0 (2025-04-11 ucrt)",
+  "ape": "5.8.1",
+  "clootl": "0.1.5",
+  "sourceSha256": "f973043745b1e56006136a5b4cabab1384f771a622c0282f68256ce02480bc42",
+  "preparedTreeSha256": "61dff5ed24be04b8aea0681c15af747f0d4cd536e9d8d952a1b238c16a51d2a8",
+  "tipCount": 11167,
+  "internalNodeCount": 11166,
+  "authorPackagedTreeAgrees": true,
+  "browserTopologyAgrees": true,
+  "browserLeafOrderAgrees": true,
+  "maxBrowserRootDistanceError": 0,
+  "maxBrowserBranchLengthError": 8.8817841970012523e-16,
+  "toleranceMya": 1e-10,
+  "studyCitationEntries": 301,
+  "studyCitationsSha256": "3b57af547a35fe2647380c30fa7029ef5399c11b6f375221253f419cf8c5b645"
+}

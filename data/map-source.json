@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Natural Earth 1:110m Admin 0 countries",
+    "repository": "https://github.com/nvkelso/natural-earth-vector",
+    "revision": "ca96624a56bd078437bca8184e78163e5039ad19",
+    "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_110m_admin_0_countries.geojson",
+    "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f",
+    "license": "Public domain",
+    "licenseUrl": "https://www.naturalearthdata.com/about/terms-of-use/"
+  },
+  "prepared": {
+    "path": "public/data/world-countries.json",
+    "sha256": "0a2ec5cb021a7423981a9d5cd6404623bd16f0ef2f70b8c47037280f82845068",
+    "bytes": 155686,
+    "shapes": 177,
+    "mappedCountryCodes": 175
+  },
+  "geometry": {
+    "projection": "Equirectangular",
+    "viewBox": [
+      0,
+      0,
+      1000,
+      500
+    ],
+    "coordinatesRoundedToSvgPixels": 0.01,
+    "antimeridian": "unwrapped rings clipped to the world boundary",
+    "countryCodeField": "ISO_A2_EH, then ISO_A2",
+    "unknownCodes": [
+      {
+        "name": "Turkish Republic of Northern Cyprus",
+        "reason": "No ISO2 identifier in the source; outline is decorative and not assigned to another country."
+      },
+      {
+        "name": "Somaliland",
+        "reason": "No ISO2 identifier in the source; outline is decorative and not assigned to another country."
+      }
+    ]
+  }
+}

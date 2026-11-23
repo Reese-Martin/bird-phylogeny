@@ -1,0 +1,25 @@
+.country-growth-view{flex:1 1 auto;min-height:0;min-width:0;overflow:auto;padding:12px clamp(18px,4vw,64px) 20px;scrollbar-width:thin;scrollbar-color:var(--hairline) transparent;background:var(--paper)}
+.arboretum,.country-growth-view{scrollbar-gutter:stable}
+.country-growth-context{max-width:1440px;margin:0 auto 12px;color:var(--muted);font-size:11px;line-height:1.5}
+.country-growth-card{position:relative}
+.country-growth-card:hover{border-color:var(--hairline)}
+.country-growth-card--clickable:hover{border-color:var(--line)}
+.country-growth-open-button{position:absolute;inset:0;z-index:2;width:100%;height:100%;border-radius:inherit;background:transparent;cursor:pointer;touch-action:pan-y pinch-zoom}
+.country-growth-open-button:focus-visible{outline:2px solid var(--accent);outline-offset:-3px}
+.country-growth-open-hint{color:var(--accent);white-space:nowrap}
+.country-growth-art{position:relative;flex:0 0 auto}
+/* Retain the same intrinsic preview footprint as the static SVG, including its mobile minimum. */
+.country-growth-sizing{visibility:hidden}
+/* An absolute canvas slot keeps its intrinsic bitmap size out of the card's aspect ratio. */
+.country-growth-plot{position:absolute;inset:15px;display:flex;align-items:center;justify-content:center;min-width:0;min-height:0;overflow:hidden}
+.country-growth-plot>.tree-canvas-wrap{flex:0 0 auto;min-width:0;min-height:0;max-height:200px}
+.country-growth-count>strong{font:inherit}
+/* Match the gallery footer's 16px icon line without adding a navigation affordance. */
+.country-growth-card-status{line-height:calc(16px * 1.45);flex-shrink:0;gap:8px;flex-wrap:wrap}
+.country-growth-main-controls{position:relative;z-index:3;display:flex;align-items:center;gap:4px;min-width:0}
+.country-growth-main-controls>.tree-controls{position:static;flex-direction:row;margin:0;padding:0;border:0;border-radius:0;background:none}
+.country-growth-main-controls .tree-controls>span{width:1px;height:20px}
+.country-growth-main-controls .tree-controls button{width:32px;height:32px}
+.country-growth-empty{position:absolute;inset:50% auto auto 50%;transform:translate(-50%,-50%);max-width:calc(100% - 20px);padding:5px 8px;border-radius:4px;background:var(--surface);color:var(--muted);font-size:11px;line-height:1.4;text-align:center;pointer-events:none}
+.country-growth-no-countries{max-width:1440px;margin:14px auto 0;color:var(--muted);font-size:12px;line-height:1.6}
+@media(max-width:560px){.country-growth-view{flex:1 0 auto;overflow:visible;padding:10px 15px 16px}.country-growth-context{font-size:10px;margin-bottom:10px}.country-growth-plot{inset:12px}}

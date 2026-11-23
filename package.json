@@ -1,0 +1,52 @@
+{
+  "name": "everybird-phylogeny",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "start": "node scripts/start-local.mjs",
+    "serve": "node scripts/serve-production.mjs",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:provenance": "vitest run --config vitest.provenance.config.ts",
+    "data:fetch": "tsx scripts/fetch-sources.ts",
+    "data:build": "tsx scripts/build-data.ts",
+    "taxonomy:import": "node scripts/import-clements.mjs",
+    "artwork:measure": "tsx scripts/sticker-geometry.ts",
+    "artwork:colors": "tsx scripts/sticker-colors.ts",
+    "artwork:overviews": "tsx scripts/sticker-overviews.ts",
+    "artwork:sheets": "tsx scripts/sticker-sheets.ts",
+    "artwork:collisions": "tsx scripts/sticker-collision-masks.ts"
+  },
+  "dependencies": {
+    "d3-quadtree": "3.0.2",
+    "d3-selection": "3.0.1",
+    "d3-zoom": "3.0.1",
+    "gifenc": "1.0.3",
+    "papaparse": "5.7.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "umap-js": "1.4.0"
+  },
+  "devDependencies": {
+    "@types/d3-quadtree": "3.0.6",
+    "@types/d3-selection": "3.0.12",
+    "@types/d3-zoom": "3.0.9",
+    "@types/node": "26.6.6",
+    "@types/papaparse": "5.5.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.3.0",
+    "fake-indexeddb": "6.2.8",
+    "sharp": "0.35.5",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "vite": "8.3.8",
+    "vitest": "5.1.0"
+  }
+}
